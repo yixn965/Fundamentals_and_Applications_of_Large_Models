@@ -1,0 +1,32 @@
+[logger] capturing stdout/stderr to results/logs/log_2025-11-09-17-38-53.txt
+Using device: cuda
+英文词汇表大小：10688
+中文词汇表大小：3364
+示例英文句子索引序列： [2, 3733, 3]
+示例中文句子索引序列： [2, 1779, 4, 3]
+Epoch 1/40, Train Loss: 4.497, Accuracy: 0.169
+Epoch 1/40, Evaluate Loss: 4.497, Accuracy: 0.217
+Epoch 2/40, Train Loss: 3.437, Accuracy: 0.228
+Epoch 2/40, Evaluate Loss: 3.437, Accuracy: 0.245
+Epoch 3/40, Train Loss: 2.929, Accuracy: 0.260
+Epoch 3/40, Evaluate Loss: 2.929, Accuracy: 0.267
+Epoch 4/40, Train Loss: 2.526, Accuracy: 0.285
+Epoch 4/40, Evaluate Loss: 2.526, Accuracy: 0.283
+Epoch 5/40, Train Loss: 2.190, Accuracy: 0.309
+Epoch 5/40, Evaluate Loss: 2.190, Accuracy: 0.291
+Epoch 6/40, Train Loss: 1.886, Accuracy: 0.334
+Epoch 6/40, Evaluate Loss: 1.886, Accuracy: 0.300
+Epoch 7/40, Train Loss: 1.609, Accuracy: 0.356
+Epoch 7/40, Evaluate Loss: 1.609, Accuracy: 0.309
+Epoch 8/40, Train Loss: 1.363, Accuracy: 0.379
+Epoch 8/40, Evaluate Loss: 1.363, Accuracy: 0.311
+Epoch 9/40, Train Loss: 1.134, Accuracy: 0.403
+Epoch 9/40, Evaluate Loss: 1.134, Accuracy: 0.314
+Epoch 10/40, Train Loss: 0.934, Accuracy: 0.422
+Epoch 10/40, Evaluate Loss: 0.934, Accuracy: 0.315
+Epoch 11/40, Train Loss: 0.761, Accuracy: 0.441
+Epoch 11/40, Evaluate Loss: 0.761, Accuracy: 0.316
+Epoch 12/40, Train Loss: 0.615, Accuracy: 0.457
+Epoch 12/40, Evaluate Loss: 0.615, Accuracy: 0.316
+Epoch 13/40, Train Loss: 0.502, Accuracy: 0.469
+Epoch 13/40, Evaluate Loss: 0.502, Accuracy: 0.316
