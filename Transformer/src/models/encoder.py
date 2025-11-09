@@ -31,6 +31,7 @@ class Encoder(nn.Module):
         self.embedding = nn.Embedding(input_dim, d_model)
         self.pos_encoder = PositionalEncoding(d_model)
         # self.pos_encoder = IdentityPositionalEncoding()
+        # self.pos = PositionalEncoding(d_model) if config['use_positional_encoding'] else IdentityPositionalEncoding()
         self.layers = nn.ModuleList([
             EncoderLayer(d_model, num_heads, d_ff, dropout)
             for _ in range(num_layers)

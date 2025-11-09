@@ -78,10 +78,10 @@ python main.py
 ### 📊 训练/验证曲线 (Loss & Accuracy)
 
 <p align="center">
-  <img src="results/output/train_loss_curve.png" alt="Train Loss" width="48%">
-  <img src="results/output/train_accuracy_curve.png"  alt="Train Acc"  width="48%"><br>
-  <img src="results/output/eval_loss_curve.png"   alt="Val Loss"   width="48%">
-  <img src="results/output/eval_accuracy_curve.png"    alt="Val Acc"    width="48%">
+  <img src="Transformer/results/output/train_loss_curve.png" alt="Train Loss" width="48%">
+  <img src="Transformer/results/output/train_accuracy_curve.png"  alt="Train Acc"  width="48%"><br>
+  <img src="Transformer/results/output/eval_loss_curve.png"   alt="Val Loss"   width="48%">
+  <img src="Transformer/results/output/eval_accuracy_curve.png"    alt="Val Acc"    width="48%">
 </p>
 
 ### 🧪 指标对比：不同注意力头数

@@ -1,7 +1,11 @@
 import pandas as pd
-
+import argparse
+# 设置命令行参数解析
+parser = argparse.ArgumentParser(description='Preprocess bilingual dataset')
+parser.add_argument('--data_path', type=str, required=True, default="data/en-cn/cmn.txt", help='Path to the bilingual data file')
+args = parser.parse_args()
 # 加载数据文件并进行预处理
-file_path = 'data/en-cn/cmn.txt'
+file_path = args.data_path
 
 # 读取文件并处理每一行，提取英文和中文句子
 data = []
