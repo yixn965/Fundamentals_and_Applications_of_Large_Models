@@ -38,8 +38,8 @@ with open('data/chinese_sentences.txt', 'r', encoding='utf-8') as f:
 # 构建词汇表
 zh_vocab = build_vocab(chinese_sentences, tokenizer_zh)
 en_vocab = build_vocab(english_sentences, tokenizer_en)
-torch.save(en_vocab, 'results/vocab/en_vocab.pt')
-torch.save(zh_vocab, 'results/vocab/zh_vocab.pt')
+# torch.save(en_vocab, 'results/vocab/en_vocab.pt')
+# torch.save(zh_vocab, 'results/vocab/zh_vocab.pt')
 print(f'英文词汇表大小：{len(en_vocab)}')
 print(f'中文词汇表大小：{len(zh_vocab)}')
 
@@ -95,7 +95,7 @@ for epoch in range(n_epochs):
 plot_metrics(train_losses, train_accuracies, learning_rates)
 plot_metrics_for_eval(eval_losses, eval_accuracies)
 save_model_statistics(model)
-save_model(model, epoch+1)
+# save_model(model, epoch+1)
 
 # ---------------------------------------评估--------------------------------------
 

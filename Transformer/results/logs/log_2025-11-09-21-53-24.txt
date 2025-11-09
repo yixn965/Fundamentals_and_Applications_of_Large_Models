@@ -1,0 +1,89 @@
+[logger] capturing stdout/stderr to results/logs/log_2025-11-09-21-53-24.txt
+Using device: cuda
+英文词汇表大小：10688
+中文词汇表大小：3364
+示例英文句子索引序列： [2, 3733, 3]
+示例中文句子索引序列： [2, 1779, 4, 3]
+Epoch 1/40, Train Loss: 4.494, Accuracy: 0.168
+Epoch 1/40, Evaluate Loss: 4.494, Accuracy: 0.213
+Epoch 2/40, Train Loss: 3.446, Accuracy: 0.227
+Epoch 2/40, Evaluate Loss: 3.446, Accuracy: 0.249
+Epoch 3/40, Train Loss: 2.931, Accuracy: 0.259
+Epoch 3/40, Evaluate Loss: 2.931, Accuracy: 0.269
+Epoch 4/40, Train Loss: 2.534, Accuracy: 0.285
+Epoch 4/40, Evaluate Loss: 2.534, Accuracy: 0.279
+Epoch 5/40, Train Loss: 2.195, Accuracy: 0.309
+Epoch 5/40, Evaluate Loss: 2.195, Accuracy: 0.296
+Epoch 6/40, Train Loss: 1.890, Accuracy: 0.333
+Epoch 6/40, Evaluate Loss: 1.890, Accuracy: 0.302
+Epoch 7/40, Train Loss: 1.613, Accuracy: 0.357
+Epoch 7/40, Evaluate Loss: 1.613, Accuracy: 0.311
+Epoch 8/40, Train Loss: 1.355, Accuracy: 0.378
+Epoch 8/40, Evaluate Loss: 1.355, Accuracy: 0.314
+Epoch 9/40, Train Loss: 1.118, Accuracy: 0.405
+Epoch 9/40, Evaluate Loss: 1.118, Accuracy: 0.317
+Epoch 10/40, Train Loss: 0.912, Accuracy: 0.425
+Epoch 10/40, Evaluate Loss: 0.912, Accuracy: 0.319
+Epoch 11/40, Train Loss: 0.738, Accuracy: 0.439
+Epoch 11/40, Evaluate Loss: 0.738, Accuracy: 0.317
+Epoch 12/40, Train Loss: 0.590, Accuracy: 0.460
+Epoch 12/40, Evaluate Loss: 0.590, Accuracy: 0.318
+Epoch 13/40, Train Loss: 0.476, Accuracy: 0.471
+Epoch 13/40, Evaluate Loss: 0.476, Accuracy: 0.320
+Epoch 14/40, Train Loss: 0.390, Accuracy: 0.481
+Epoch 14/40, Evaluate Loss: 0.390, Accuracy: 0.321
+Epoch 15/40, Train Loss: 0.322, Accuracy: 0.491
+Epoch 15/40, Evaluate Loss: 0.322, Accuracy: 0.319
+Epoch 16/40, Train Loss: 0.272, Accuracy: 0.497
+Epoch 16/40, Evaluate Loss: 0.272, Accuracy: 0.322
+Epoch 17/40, Train Loss: 0.239, Accuracy: 0.501
+Epoch 17/40, Evaluate Loss: 0.239, Accuracy: 0.323
+Epoch 18/40, Train Loss: 0.207, Accuracy: 0.503
+Epoch 18/40, Evaluate Loss: 0.207, Accuracy: 0.321
+Epoch 19/40, Train Loss: 0.187, Accuracy: 0.507
+Epoch 19/40, Evaluate Loss: 0.187, Accuracy: 0.320
+Epoch 20/40, Train Loss: 0.171, Accuracy: 0.507
+Epoch 20/40, Evaluate Loss: 0.171, Accuracy: 0.321
+Epoch 21/40, Train Loss: 0.160, Accuracy: 0.508
+Epoch 21/40, Evaluate Loss: 0.160, Accuracy: 0.319
+Epoch 22/40, Train Loss: 0.150, Accuracy: 0.510
+Epoch 22/40, Evaluate Loss: 0.150, Accuracy: 0.323
+Epoch 23/40, Train Loss: 0.142, Accuracy: 0.508
+Epoch 23/40, Evaluate Loss: 0.142, Accuracy: 0.319
+Epoch 24/40, Train Loss: 0.135, Accuracy: 0.512
+Epoch 24/40, Evaluate Loss: 0.135, Accuracy: 0.321
+Epoch 25/40, Train Loss: 0.128, Accuracy: 0.513
+Epoch 25/40, Evaluate Loss: 0.128, Accuracy: 0.321
+Epoch 26/40, Train Loss: 0.123, Accuracy: 0.516
+Epoch 26/40, Evaluate Loss: 0.123, Accuracy: 0.320
+Epoch 27/40, Train Loss: 0.116, Accuracy: 0.514
+Epoch 27/40, Evaluate Loss: 0.116, Accuracy: 0.322
+Epoch 28/40, Train Loss: 0.112, Accuracy: 0.513
+Epoch 28/40, Evaluate Loss: 0.112, Accuracy: 0.323
+Epoch 29/40, Train Loss: 0.108, Accuracy: 0.515
+Epoch 29/40, Evaluate Loss: 0.108, Accuracy: 0.324
+Epoch 30/40, Train Loss: 0.104, Accuracy: 0.515
+Epoch 30/40, Evaluate Loss: 0.104, Accuracy: 0.321
+Epoch 31/40, Train Loss: 0.100, Accuracy: 0.514
+Epoch 31/40, Evaluate Loss: 0.100, Accuracy: 0.321
+Epoch 32/40, Train Loss: 0.097, Accuracy: 0.515
+Epoch 32/40, Evaluate Loss: 0.097, Accuracy: 0.322
+Epoch 33/40, Train Loss: 0.093, Accuracy: 0.517
+Epoch 33/40, Evaluate Loss: 0.093, Accuracy: 0.322
+Epoch 34/40, Train Loss: 0.092, Accuracy: 0.519
+Epoch 34/40, Evaluate Loss: 0.092, Accuracy: 0.320
+Epoch 35/40, Train Loss: 0.088, Accuracy: 0.518
+Epoch 35/40, Evaluate Loss: 0.088, Accuracy: 0.323
+Epoch 36/40, Train Loss: 0.084, Accuracy: 0.514
+Epoch 36/40, Evaluate Loss: 0.084, Accuracy: 0.324
+Epoch 37/40, Train Loss: 0.081, Accuracy: 0.518
+Epoch 37/40, Evaluate Loss: 0.081, Accuracy: 0.322
+Epoch 38/40, Train Loss: 0.081, Accuracy: 0.520
+Epoch 38/40, Evaluate Loss: 0.081, Accuracy: 0.323
+Epoch 39/40, Train Loss: 0.076, Accuracy: 0.516
+Epoch 39/40, Evaluate Loss: 0.076, Accuracy: 0.323
+Epoch 40/40, Train Loss: 0.077, Accuracy: 0.520
+Epoch 40/40, Evaluate Loss: 0.077, Accuracy: 0.325
+Model saved to results/output/model_stats.txt
+Validation Loss: 3.099, Validation Accuracy: 0.325
+Top 10 high accuracy examples saved to results/output/evaluate_examples.csv

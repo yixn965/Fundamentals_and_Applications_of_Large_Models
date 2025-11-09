@@ -69,6 +69,10 @@ class PositionwiseFeedForward(nn.Module):
         return self.fc2(self.dropout(self.relu(self.fc1(x))))
 
 
+class IdentityPositionalEncoding(nn.Module):
+    def forward(self, x):
+        return x
+    
 class PositionalEncoding(nn.Module):
     def __init__(self, d_model, max_len=5000):
         super().__init__()

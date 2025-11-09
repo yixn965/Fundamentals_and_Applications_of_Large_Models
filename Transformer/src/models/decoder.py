@@ -1,4 +1,4 @@
-from src.models.attention import PositionalEncoding,MultiHeadAttention,PositionwiseFeedForward
+from src.models.attention import PositionalEncoding,MultiHeadAttention,PositionwiseFeedForward,IdentityPositionalEncoding
 import torch.nn as nn
 import torch
 import math
@@ -36,6 +36,7 @@ class Decoder(nn.Module):
         self.d_model = d_model
         self.embedding = nn.Embedding(output_dim, d_model)
         self.pos_encoder = PositionalEncoding(d_model)
+        # self.pos_encoder = IdentityPositionalEncoding()
         self.layers = nn.ModuleList([
             DecoderLayer(d_model, num_heads, d_ff, dropout)
             for _ in range(num_layers)
