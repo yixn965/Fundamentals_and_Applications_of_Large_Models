@@ -1,6 +1,5 @@
 dataset/translation/
 # data / cache / weights
-Model_Finetune/
 data/
 *.zip
 *.pdf

@@ -1,0 +1,10 @@
+name: /opt/data/private/gaoj/gj_envs/swift
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+  - defaults
+dependencies:
+  - python=3.10
+prefix: /opt/data/private/gaoj/gj_envs/swift
