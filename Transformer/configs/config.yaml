@@ -11,4 +11,5 @@ dropout: 0.1
 n_epochs: 40
 
 use_positional_encoding: true
+train: True
 evaluate: True

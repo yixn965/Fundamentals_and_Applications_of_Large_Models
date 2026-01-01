@@ -70,6 +70,7 @@ model = Transformer(input_dim, output_dim, d_model, num_heads, d_ff, num_layers,
 
 
 # ---------------------------------------训练--------------------------------------
+# if config['train']:
 n_epochs = config['n_epochs']
 
 # 初始化变量用于保存曲线
